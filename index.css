@@ -1,0 +1,74 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin: 0 5px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: #e93306;
+}
+.nav2{
+    width: 100%;
+    height: 88%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: unset;
+    padding: 0px 70px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px ;
+    position: centre;
+
+}
+body {
+    background-image: url(Blue\ Purple\ Abstract\ Cosmic\ Neon\ Desktop\ Wallpaper\ \(5\).png);
+}
+.h-text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h-text h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+.h-text span{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+
+.h-text a{
+    text-decoration: none;
+    color: white;
+    background: #f10742;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+}
